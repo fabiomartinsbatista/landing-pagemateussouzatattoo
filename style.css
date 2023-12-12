@@ -35,7 +35,7 @@ body {
 	height: -webkit-fill-available;
 	color: hsl(206, 5%, 100%);
 	background-color: hsl(216, 22%, 4%);
-	background-image: url(img/171274.webp);
+	background-image: url(img/IMG-20231210-WA0020.jpg);
 	background-size: contain;
 	background-position: center;
   
@@ -43,7 +43,7 @@ body {
 
 .texto1 {
    text-align: center;
-   margin-top: 140px;
+   margin-top: 40px;
    font-family: 'Lethal Craze DEMO';
    font-size: x-large;
    letter-spacing: 4px;
@@ -60,7 +60,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 80px;
+  margin-top: 30px;
 }
 
 .button {
@@ -71,12 +71,12 @@ body {
   text-transform: uppercase;
   letter-spacing: 1.3px;
   font-weight: 700;
-  color: #313133;
-  background: #4FD1C5;
-background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 100%);
+  color: #c50d0d;
+  background: #d14f4f;
+background: linear-gradient(90deg, rgb(233, 11, 11) 0%, rgb(163, 0, 0) 100%);
   border: none;
   border-radius: 1000px;
-  box-shadow: 12px 12px 24px rgba(79,209,197,.64);
+  box-shadow: 12px 12px 24px rgba(231, 59, 59, 0.64);
   transition: all 0.3s ease-in-out 0s;
   cursor: pointer;
   outline: none;
@@ -89,8 +89,8 @@ content: '';
   border-radius: 1000px;
   min-width: calc(300px + 12px);
   min-height: calc(60px + 12px);
-  border: 6px solid #00FFCB;
-  box-shadow: 0 0 60px rgba(0,255,203,.64);
+  border: 6px solid #ec4e4e;
+  box-shadow: 0 0 60px rgba(226, 76, 76, 0.64);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -100,7 +100,7 @@ content: '';
 }
 
 .button:hover, .button:focus {
-  color: #313133;
+  color: #e42121;
   transform: translateY(-6px);
 }
 
@@ -112,7 +112,7 @@ button::after {
   content: '';
   width: 30px; height: 30px;
   border-radius: 100%;
-  border: 6px solid #00FFCB;
+  border: 6px solid #ff0000;
   position: absolute;
   z-index: -1;
   top: 50%;
@@ -148,6 +148,7 @@ button {
   background: none;
   box-shadow: none;
   text-decoration: none;
+  color: white;
 }
 
 img,
@@ -432,7 +433,7 @@ video {
   row-gap: 0.5rem;
 }
 .banner-links > * {
-  font-size: 1.25rem;
+  font-size: 1.70rem;
   line-height: 1.25;
   color: hsl(206, 5%, 100%);
 }
@@ -443,7 +444,7 @@ video {
   width: 4rem;
   height: 1.5px;
   transform: rotate(90deg);
-  background: hsl(206, 5%, 100%);
+  background: hsl(0, 97%, 50%);
 }
 .banner-links::after {
   position: absolute;
@@ -452,7 +453,7 @@ video {
   width: 4rem;
   height: 2px;
   transform: rotate(90deg);
-  background: hsl(206, 5%, 100%);
+  background: hsl(0, 100%, 49%);
 }
 .banner-links a:hover {
     color: #d80221;
