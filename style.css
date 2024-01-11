@@ -173,9 +173,10 @@ button {
 img,
 video {
   display: block;
-  max-width: 100%;
+  max-width: 160%;
   height: auto;
   object-fit: cover;
+  margin-left: -230px;
 }
 
 .section {
@@ -504,6 +505,6 @@ video {
 		font-size: 14px;
 	}
 	.brandlogo img {
-		width: 100px;
+		width: 330px;
 	}
 }
