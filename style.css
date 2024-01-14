@@ -508,3 +508,42 @@ video {
 		width: 390px;
 	}
 }
+
+
+
+
+
+@media (max-width: 1920px) {
+	.menu-block {
+		padding: 5px 30px;
+		font-size: 14px;
+	}
+	.brandlogo img {
+		width: 390px;
+   margin-right: 1500px;
+   width: 180px;
+   margin-left: 500px;
+       
+	}
+
+  body {
+    background-size: cover;
+  }
+
+  canvas {
+    position:absolute;
+  }
+
+  .texto2 {
+    text-align: end;
+    margin-right: 865px;
+    font-size: 1.50rem;
+    letter-spacing: 4px;
+    margin-top: 10px;
+  }
+
+  .banner-links {
+    margin-right: -300px;
+  }
+
+}
